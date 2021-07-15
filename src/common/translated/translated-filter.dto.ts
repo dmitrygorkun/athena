@@ -1,9 +1,9 @@
 import {IsEnum, IsOptional} from 'class-validator';
-import {Constructable, EntityListFilter} from '../entity/entity';
+import {ConstructableFilter} from '../entity/mixin';
 import {LANG} from './translated';
 import {TranslatedFilter} from './translated-filter';
 
-export function TranslatedFilterDto<T extends Constructable<EntityListFilter>>(Base: T) {
+export function TranslatedFilterDto<T extends ConstructableFilter>(Base: T) {
 
     class Mixin extends Base implements TranslatedFilter {
 
