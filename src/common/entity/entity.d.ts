@@ -16,5 +16,3 @@ export interface EntityListFilter {
     offset: number;
     sort: string;
 }
-
-export type Constructable<T extends Entity | EntityListFilter> = new (...args: any[]) => T;

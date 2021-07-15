@@ -1,9 +1,9 @@
 import {Column} from 'typeorm';
-import {Constructable, Entity} from '../entity/entity';
+import {ConstructableEntity} from '../entity/mixin';
 import {SeoData} from './seo-data';
 import {SeoPrepared} from './seo-prepared';
 
-export function SeoPreparedMixin<T extends Constructable<Entity>>(Base: T) {
+export function SeoPreparedMixin<T extends ConstructableEntity>(Base: T) {
 
     class Mixin extends Base implements SeoPrepared {
 
