@@ -1,5 +1,5 @@
 import {PrimaryGeneratedColumn} from 'typeorm';
-import {Entity} from './entity';
+import {Entity} from './entity.definition';
 
 export class EntityDomain implements Entity {
 

@@ -1,7 +1,7 @@
 import {Column} from 'typeorm';
-import {ConstructableEntity} from '../entity/mixin';
-import {SeoData} from './seo-data';
-import {SeoPrepared} from './seo-prepared';
+import {ConstructableEntity} from '../entity/mixin.definition';
+import {SeoData} from './seo-data.definition';
+import {SeoPrepared} from './seo-prepared.definition';
 
 export function SeoPreparedMixin<T extends ConstructableEntity>(Base: T) {
 

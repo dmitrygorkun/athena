@@ -1,5 +1,5 @@
 import {IsEnum} from 'class-validator';
-import {LANG, Translated} from './translated';
+import {LANG, Translated} from './translated.definition';
 
 export class TranslatedDto implements Translated {
 

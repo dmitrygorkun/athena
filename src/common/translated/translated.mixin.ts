@@ -1,6 +1,6 @@
 import {Column} from 'typeorm';
-import {ConstructableFilter} from '../entity/mixin';
-import {LANG, Translated} from './translated';
+import {ConstructableFilter} from '../entity/mixin.definition';
+import {LANG, Translated} from './translated.definition';
 
 export function TranslatedMixin<T extends ConstructableFilter>(Base: T) {
 

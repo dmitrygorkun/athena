@@ -1,5 +1,5 @@
 import {IsOptional} from 'class-validator';
-import {EntityListFilter} from './entity';
+import {EntityListFilter} from './entity.definition';
 
 export const DEFAULT_LIST_LIMIT = 20;
 

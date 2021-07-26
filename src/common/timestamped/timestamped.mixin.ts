@@ -1,6 +1,6 @@
 import {CreateDateColumn, UpdateDateColumn} from 'typeorm';
-import {ConstructableEntity} from '../entity/mixin';
-import {Timestamped} from './timestamped';
+import {ConstructableEntity} from '../entity/mixin.definition';
+import {Timestamped} from './timestamped.definition';
 
 export function TimestampedMixin<T extends ConstructableEntity>(Base: T) {
 

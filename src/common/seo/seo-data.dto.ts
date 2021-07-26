@@ -1,5 +1,5 @@
 import {IsNotEmpty, IsOptional, MaxLength} from 'class-validator';
-import {SeoData} from './seo-data';
+import {SeoData} from './seo-data.definition';
 
 export const SEO_TITLE_LENGTH = 100;
 

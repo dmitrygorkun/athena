@@ -1,4 +1,4 @@
-import {Entity, EntityListFilter} from './entity';
+import {Entity, EntityListFilter} from './entity.definition';
 
 type Constructable<T> = new (...args: any[]) => T;
 

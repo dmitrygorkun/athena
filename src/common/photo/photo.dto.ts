@@ -1,5 +1,5 @@
 import {IsNotEmpty, MaxLength} from 'class-validator';
-import {Photo} from './photo';
+import {Photo} from './photo.definition';
 
 export const PHOTO_TITLE_LENGTH = 100;
 

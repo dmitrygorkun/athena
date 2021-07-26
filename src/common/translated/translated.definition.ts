@@ -1,4 +1,4 @@
-import {Entity} from '../entity/entity';
+import {Entity} from '../entity/entity.definition';
 
 export enum LANG {
     UKRAINIAN = 'uk',
