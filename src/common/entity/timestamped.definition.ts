@@ -1,4 +1,4 @@
-import {Entity} from '../entity/entity.definition';
+import {Entity} from './entity.definition';
 
 export interface Timestamped extends Entity {
     createdAt: Date;
