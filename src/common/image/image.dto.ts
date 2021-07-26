@@ -1,11 +1,11 @@
 import {IsNotEmpty, MaxLength} from 'class-validator';
-import {Photo} from './photo.definition';
+import {Image} from './image.definition';
 
 export const PHOTO_TITLE_LENGTH = 100;
 
 export const PHOTO_LINK_LENGTH = 100;
 
-export class PhotoDto implements Photo {
+export class ImageDto implements Image {
 
     @IsNotEmpty()
     @MaxLength(PHOTO_TITLE_LENGTH)
